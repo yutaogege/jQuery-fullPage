@@ -2,13 +2,17 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>jQuery全屏滚动插件fullPage.js演示</title>
+<title>jQuery全屏滚动插件fullPage.js演示_dowebok</title>
 <style>
+* { margin: 0; padding: 0;}
 .wrap { width: 960px; margin: 0 auto; font: 14px Tahoma,Helvetica,Arial,"宋体";}
-p { text-align: center;}
-ul { margin: 0; padding: 0; list-style-type: none; overflow: hidden; zoom: 1;}
-li { float: left; width: 300px; margin: 20px 0 0 20px; display: inline;}
-ul a { float: left; width: 300px; height: 80px; line-height: 80px; color: #333; text-align: center; text-decoration: none; background-color: #eee;}
+p { margin: 14px 0; text-align: center;}
+h2 { margin-bottom: 20px; padding: 5px 2px; border-bottom: 1px solid #ccc; font: 500 24px "Microsoft Yahei";}
+ul { margin-top: 20px; list-style-type: none; overflow: hidden; zoom: 1;}
+li { position: relative; float: left; width: 300px; margin: 0 10px 20px;}
+ul a { float: left; width: 300px; height: 60px; line-height: 60px; color: #333; text-align: center; text-decoration: none; background-color: #eee;}
+ul .downLink { position: absolute; right: 0; bottom: 0; width: auto; height: auto; padding: 5px 10px; line-height: normal; font-size: 12px; color: #666; background-color: #ddd;}
+ul .downLink:hover { color: #000;}
 </style>
 </head>
 
@@ -17,6 +21,7 @@ ul a { float: left; width: 300px; height: 80px; line-height: 80px; color: #333; 
 
 <div class="wrap">
 	<p>fullPage.js 是一个基于 jQuery 的插件，它能够很方便、很轻松的制作出全屏网站。</p>
+	<h2>基本演示</h2>
 	<ul>
 		<li><a href="index2.html" target="_blank">基本演示</a></li>
 		<li><a href="index3.html" target="_blank">背景演示</a></li>
@@ -24,8 +29,20 @@ ul a { float: left; width: 300px; height: 80px; line-height: 80px; color: #333; 
 		<li><a href="index5.html" target="_blank">回调函数演示</a></li>
 		<li><a href="index6.html" target="_blank">绑定菜单演示</a></li>
 		<li><a href="index7.html" target="_blank">项目导航演示</a></li>
+		<li><a href="index11.html" target="_blank">自动滚动</a></li>
+		<li><a href="index12.html" target="_blank">slide自动滚动</a></li>
+		<li><a href="index13.html" target="_blank">响应式</a></li>
+	</ul>
+
+	<h2>综合演示</h2>
+	<ul>
 		<li><a href="index8.html" target="_blank">iPhone 5C</a></li>
 		<li><a href="http://www.dowebok.com/demo/2014/78/" target="_blank">百度百科史记2013</a></li>
+		<li><a href="http://www.dowebok.com/demo/2014/80/" target="_blank">搜狐快站</a></li>
+		<li><a href="http://www.dowebok.com/demo/2014/97/" target="_blank">网易邮箱6.0</a></li>
+		<li><a href="http://www.dowebok.com/demo/2014/77/index9.html" target="_blank">证券时报网移动产品</a></li>
+		<li><a href="http://www.dowebok.com/demo/126/" target="_blank">邮箱大师</a> <a class="downLink" href="http://www.400gb.com/file/74538329" target="_blank">下载</a></li>
+		<li><a href="index10.html" target="_blank">360安全路由</a> <a class="downLink" href="http://www.400gb.com/file/74322911" target="_blank">下载</a></li>
 	</ul>
 </div>
 
@@ -41,6 +58,11 @@ ul a { float: left; width: 300px; height: 80px; line-height: 80px; color: #333; 
 .thead { width: 728px; height: 90px; margin: 0 auto;}
 </style>
 
+<p class="vad">
+	<a href="http://www.dowebok.com/" target="_blank">dowebok.com</a>
+	<a href="http://www.dowebok.com/77.html" target="_blank">说 明</a>
+	<a href="http://www.dowebok.com/77.html" target="_blank">下 载</a>
+</p>
 
 </body>
 </html>
